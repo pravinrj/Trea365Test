@@ -6,9 +6,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.erp.qa.base.TestBase;
-import com.erp.qa.pages.BusinessNaturePage;
 import com.erp.qa.pages.HomePage;
 import com.erp.qa.pages.LoginPage;
+import com.erp.qa.pages.Admin.BusinessNaturePage;
 import com.erp.qa.util.TestUtil;
 
 public class HomePageTest extends TestBase {

@@ -1,4 +1,4 @@
-package com.erp.qa.testcases;
+package com.erp.qa.testcases.Admin;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -7,9 +7,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.erp.qa.base.TestBase;
-import com.erp.qa.pages.BusinessNaturePage;
 import com.erp.qa.pages.HomePage;
 import com.erp.qa.pages.LoginPage;
+import com.erp.qa.pages.Admin.BusinessNaturePage;
 import com.erp.qa.util.TestUtil;
 
 public class BusinessNaturePageTest extends TestBase  {

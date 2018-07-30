@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.erp.qa.base.TestBase;
+import com.erp.qa.pages.Admin.BusinessNaturePage;
 
 public class HomePage extends TestBase {
 

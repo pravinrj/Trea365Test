@@ -1,4 +1,4 @@
-package com.erp.qa.pages;
+package com.erp.qa.pages.Admin;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
