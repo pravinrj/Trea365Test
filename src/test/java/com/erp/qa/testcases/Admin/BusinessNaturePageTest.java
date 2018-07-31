@@ -31,7 +31,9 @@ public class BusinessNaturePageTest extends TestBase  {
 		loginPage = new LoginPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		homePage.clickOnAdminTab();
+		Thread.sleep(3000);
 		businessNaturePage = homePage.clickOnNatureofBusinessLink();
+		//homePage.ClickOnNatureofBusinessTab();
 		Thread.sleep(3000);
 		System.out.println("I am in Business Type List");
 	}

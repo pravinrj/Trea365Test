@@ -1,7 +1,6 @@
 package com.erp.qa.pages;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -18,22 +17,16 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "/html/body/trea-app-root/ng-component/div/div[2]/section/app-summary/div/div[1]")
 	@CacheLookup
 	WebElement HomePageTitle;
-	
-	
-
+		
 	@FindBy(xpath = "//*[@id='leftside-navigation']/ul/li[2]/a/span[1]")
 	WebElement AdminTab;
 	
 	@FindBy(xpath = "//*[@id='leftside-navigation']/ul/li[2]/ul/li[1]/a")
 	WebElement NatureofBusinessLink;
 	
-
-//	@FindBy(xpath = "//a[contains(text(),'Deals')]")
-//	WebElement dealsLink;
-//
-//	@FindBy(xpath = "//a[contains(text(),'Tasks')]")
-//	WebElement tasksLink;
-
+	@FindBy(xpath="//*[@id='leftside-navigation']/ul/li[2]/ul/li[4]/a")
+	WebElement MfgPartLink;
+	
 	// Initializing the Page Objects:
 	public HomePage() {
 		PageFactory.initElements(driver, this);
@@ -57,29 +50,9 @@ public class HomePage extends TestBase {
 		NatureofBusinessLink.click();
 		return new BusinessNaturePage();
 	}
+	/*public void ClickOnNatureofBusinessTab()
+	{
+		NatureofBusinessLink.click();
+	}*/
 	
-//	public DealsPage clickOnDealsLink(){
-//		dealsLink.click();
-//		return new DealsPage();
-//	}
-//	
-//	public TasksPage clickOnTasksLink(){
-//		tasksLink.click();
-//		return new TasksPage();
-//	}
-//	
-//	public void clickOnNewContactLink(){
-//		Actions action = new Actions(driver);
-//		action.moveToElement(contactsLink).build().perform();
-//		newContactLink.click();
-//		
-//	}
-	
-	
-	
-	
-	
-	
-	
-
 }

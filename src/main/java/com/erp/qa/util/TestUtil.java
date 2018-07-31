@@ -20,7 +20,7 @@ public class TestUtil extends TestBase{
 	public static long PAGE_LOAD_TIMEOUT = 90;
 	public static long IMPLICIT_WAIT = 90;
 	
-	public static String TESTDATA_SHEET_PATH = System.getProperty("user.dir")+ "/src/main/java/com/erp/qa/testdata/Trea365TestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = System.getProperty("user.dir")+ "/src/main/java/com/erp/qa/testdata/Trea365TestData.xls";
 	
 	static Workbook book;
 	static Sheet sheet;
