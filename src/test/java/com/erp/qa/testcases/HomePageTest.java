@@ -46,11 +46,25 @@ public class HomePageTest extends TestBase {
 		Assert.assertTrue(homePage.verifyCorrectUserName());
 	}
 	
+		
 	@Test(priority=3)
-	public void verifyNatureOfBusinessLinkTest(){
+	public void verifyNatureOfBusinessURLTest() throws InterruptedException{
 		//testUtil.switchToFrame();
 		homePage.clickOnAdminTab();
-		businessNaturePage = homePage.clickOnNatureofBusinessLink();
+		Thread.sleep(3000);
+		String url= homePage.GetNatureofBusinessPageURL();
+		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/business-nature", "URL not match");
+		
+	}
+	
+	@Test(priority=4)
+	public void verifyLocationsURLTest() throws InterruptedException{
+		//testUtil.switchToFrame();
+		homePage.clickOnAdminTab();
+		Thread.sleep(3000);
+		String url= homePage.GetLocationsPageURL();
+		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/location-list", "URL not match");
+		
 	}
 		
 	@AfterMethod

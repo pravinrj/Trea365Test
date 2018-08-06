@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="4" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="107511" started-at="2018-07-31T10:57:49Z" finished-at="2018-07-31T10:59:36Z">
+  <suite name="Default suite" duration-ms="174080" started-at="2018-08-06T06:52:15Z" finished-at="2018-08-06T06:55:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="107511" started-at="2018-07-31T10:57:49Z" finished-at="2018-07-31T10:59:36Z">
+    <test name="Default test" duration-ms="174080" started-at="2018-08-06T06:52:15Z" finished-at="2018-08-06T06:55:09Z">
       <class name="com.erp.qa.testcases.Admin.BusinessNaturePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="setUp" is-config="true" duration-ms="23270" started-at="2018-07-31T16:27:49Z" finished-at="2018-07-31T16:28:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="setUp" is-config="true" duration-ms="34224" started-at="2018-08-06T12:22:15Z" finished-at="2018-08-06T12:22:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="CreateBusinessTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="CreateBusinessTypeTest" duration-ms="4" started-at="2018-07-31T16:28:12Z" data-provider="getTreaTestData" finished-at="2018-07-31T16:28:12Z">
+        <test-method status="PASS" signature="CreateBusinessTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="CreateBusinessTypeTest" duration-ms="9148" started-at="2018-08-06T12:22:49Z" data-provider="getTreaTestData" finished-at="2018-08-06T12:22:59Z">
           <params>
             <param index="0">
               <value>
@@ -30,54 +30,22 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[500.0]]>
+                <![CDATA[600.0]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.erp.qa.testcases.Admin.BusinessNaturePageTest.CreateBusinessTypeTest(BusinessNaturePageTest.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateBusinessTypeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="tearDown" is-config="true" duration-ms="634" started-at="2018-07-31T16:28:12Z" finished-at="2018-07-31T16:28:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="tearDown" is-config="true" duration-ms="630" started-at="2018-08-06T12:22:59Z" finished-at="2018-08-06T12:22:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="setUp" is-config="true" duration-ms="22485" started-at="2018-07-31T16:28:13Z" finished-at="2018-07-31T16:28:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="setUp" is-config="true" duration-ms="34612" started-at="2018-08-06T12:22:59Z" finished-at="2018-08-06T12:23:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="VerifySearchBuType(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="VerifySearchBuType" duration-ms="3002" started-at="2018-07-31T16:28:35Z" data-provider="getTreaTestData" finished-at="2018-07-31T16:28:38Z">
+        <test-method status="PASS" signature="VerifySearchBuType(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="VerifySearchBuType" duration-ms="6207" started-at="2018-08-06T12:23:34Z" data-provider="getTreaTestData" finished-at="2018-08-06T12:23:40Z">
           <params>
             <param index="0">
               <value>
@@ -96,54 +64,22 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[500.0]]>
+                <![CDATA[600.0]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.erp.qa.testcases.Admin.BusinessNaturePageTest.VerifySearchBuType(BusinessNaturePageTest.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchBuType -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="tearDown" is-config="true" duration-ms="623" started-at="2018-07-31T16:28:38Z" finished-at="2018-07-31T16:28:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="tearDown" is-config="true" duration-ms="616" started-at="2018-08-06T12:23:40Z" finished-at="2018-08-06T12:23:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="setUp" is-config="true" duration-ms="22328" started-at="2018-07-31T16:28:39Z" finished-at="2018-07-31T16:29:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="setUp" is-config="true" duration-ms="37680" started-at="2018-08-06T12:23:41Z" finished-at="2018-08-06T12:24:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="EditBusinessTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="EditBusinessTypeTest" duration-ms="3001" started-at="2018-07-31T16:29:01Z" data-provider="getTreaTestData" finished-at="2018-07-31T16:29:04Z">
+        <test-method status="FAIL" signature="EditBusinessTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="EditBusinessTypeTest" duration-ms="14618" started-at="2018-08-06T12:24:18Z" data-provider="getTreaTestData" finished-at="2018-08-06T12:24:33Z">
           <params>
             <param index="0">
               <value>
@@ -162,14 +98,22 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[500.0]]>
+                <![CDATA[600.0]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Edited BU text not matched: expected [TestBUNew] but found [TestBU]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.erp.qa.testcases.Admin.BusinessNaturePageTest.EditBusinessTypeTest(BusinessNaturePageTest.java:60)
+              <![CDATA[java.lang.AssertionError: Edited BU text not matched: expected [TestBUNew] but found [TestBU]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at com.erp.qa.testcases.Admin.BusinessNaturePageTest.EditBusinessTypeTest(BusinessNaturePageTest.java:61)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -197,19 +141,19 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditBusinessTypeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="tearDown" is-config="true" duration-ms="627" started-at="2018-07-31T16:29:04Z" finished-at="2018-07-31T16:29:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="tearDown" is-config="true" duration-ms="633" started-at="2018-08-06T12:24:33Z" finished-at="2018-08-06T12:24:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="setUp" is-config="true" duration-ms="27624" started-at="2018-07-31T16:29:05Z" finished-at="2018-07-31T16:29:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="setUp" is-config="true" duration-ms="26871" started-at="2018-08-06T12:24:34Z" finished-at="2018-08-06T12:25:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="DeleteBuTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="DeleteBuTypeTest" duration-ms="3001" started-at="2018-07-31T16:29:33Z" data-provider="getTreaTestData" finished-at="2018-07-31T16:29:36Z">
+        <test-method status="PASS" signature="DeleteBuTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="DeleteBuTypeTest" duration-ms="7944" started-at="2018-08-06T12:25:00Z" data-provider="getTreaTestData" finished-at="2018-08-06T12:25:08Z">
           <params>
             <param index="0">
               <value>
@@ -228,46 +172,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[500.0]]>
+                <![CDATA[600.0]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.erp.qa.testcases.Admin.BusinessNaturePageTest.DeleteBuTypeTest(BusinessNaturePageTest.java:67)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteBuTypeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="tearDown" is-config="true" duration-ms="660" started-at="2018-07-31T16:29:36Z" finished-at="2018-07-31T16:29:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.BusinessNaturePageTest@dafa95]" name="tearDown" is-config="true" duration-ms="630" started-at="2018-08-06T12:25:08Z" finished-at="2018-08-06T12:25:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

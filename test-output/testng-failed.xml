@@ -6,10 +6,7 @@
       <class name="com.erp.qa.testcases.Admin.BusinessNaturePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="DeleteBuTypeTest" invocation-numbers="0"/>
           <include name="EditBusinessTypeTest" invocation-numbers="0"/>
-          <include name="VerifySearchBuType" invocation-numbers="0"/>
-          <include name="CreateBusinessTypeTest" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.erp.qa.testcases.Admin.BusinessNaturePageTest -->

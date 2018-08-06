@@ -24,8 +24,8 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//*[@id='leftside-navigation']/ul/li[2]/ul/li[1]/a")
 	WebElement NatureofBusinessLink;
 	
-	@FindBy(xpath="//*[@id='leftside-navigation']/ul/li[2]/ul/li[4]/a")
-	WebElement MfgPartLink;
+	@FindBy(xpath="//*[@id='leftside-navigation']/ul/li[2]/ul/li[2]/a")
+	WebElement LocationsLink;
 	
 	// Initializing the Page Objects:
 	public HomePage() {
@@ -50,9 +50,22 @@ public class HomePage extends TestBase {
 		NatureofBusinessLink.click();
 		return new BusinessNaturePage();
 	}
-	/*public void ClickOnNatureofBusinessTab()
+	public void ClickOnNatureofBusinessTab(){
+		NatureofBusinessLink.click();
+		
+	}
+		
+	public String GetNatureofBusinessPageURL()
 	{
 		NatureofBusinessLink.click();
-	}*/
+		return driver.getCurrentUrl();
+		
+	}
+	
+	public String GetLocationsPageURL()
+	{
+		LocationsLink.click();
+		return driver.getCurrentUrl();
+	}
 	
 }
