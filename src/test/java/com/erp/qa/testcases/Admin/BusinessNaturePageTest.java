@@ -73,12 +73,7 @@ public class BusinessNaturePageTest extends TestBase  {
 		Object data[][]=testUtil.getTestData(sheetname);
 		return data;
 	}
-	/*@DataProvider
-	public Object[][] getTreaTestData()
-	{
-		Object data[][]=testUtil.getTestData(sheetname);
-		return data;
-	}**/
+	
 	
 	@AfterMethod
 	public void tearDown(){
