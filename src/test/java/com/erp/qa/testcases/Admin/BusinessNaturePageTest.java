@@ -74,6 +74,7 @@ public class BusinessNaturePageTest extends TestBase  {
 		return data;
 	}
 	
+	
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
