@@ -1,6 +1,8 @@
 package com.erp.qa.testcases.Admin;
 
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 import com.erp.qa.base.TestBase;
 import com.erp.qa.pages.HomePage;
@@ -13,7 +15,8 @@ public class ItemDefinationPageTest extends TestBase {
 	LoginPage loginPage;
 	HomePage homePage;
 	TestUtil testUtil;
-	String sheetname="Item Def";
+	ItemDefinationPage itemdefinationpage;
+	String sheetname="ItemDef";
 	
 	public ItemDefinationPageTest()
 	{
@@ -29,9 +32,23 @@ public class ItemDefinationPageTest extends TestBase {
 		homePage.clickOnAdminTab();
 		Thread.sleep(3000);
 		//ItemDefinationPage = homePage.clickOnItemDefinationLink();
-		//homePage.ClickOnNatureofBusinessTab();
+		homePage.ClickonItemDefLink();
 		Thread.sleep(3000);
 		System.out.println("I am in Item Defination List");
+	}
+	
+	@Test(priority=1,dataProvider="getTreaTestData")
+	public void CreateItemDefTest(String ItemCategory, String Mfg, String ItemDefNo, String UPC, String FullName, String ShortName, String UOM, String AttributeLabel, String AttributeData) throws InterruptedException
+	{
+		itemdefinationpage.CreateItemDef(ItemCategory, Mfg, ItemDefNo, UPC,FullName,ShortName,UOM,AttributeLabel,AttributeData);
+		
+	}
+	
+	@DataProvider
+	public Object[][] getTreaTestData()
+	{
+		Object data[][]=testUtil.getTestData(sheetname);
+		return data;
 	}
 	
 }

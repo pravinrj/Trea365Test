@@ -1,133 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="357776" started-at="2018-08-06T07:32:25Z" finished-at="2018-08-06T07:38:23Z">
+  <suite name="Default suite" duration-ms="228" started-at="2018-08-06T12:39:56Z" finished-at="2018-08-06T12:39:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="357776" started-at="2018-08-06T07:32:25Z" finished-at="2018-08-06T07:38:23Z">
-      <class name="com.erp.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="setUp" is-config="true" duration-ms="32809" started-at="2018-08-06T13:02:25Z" finished-at="2018-08-06T13:02:58Z">
+    <test name="Default test" duration-ms="228" started-at="2018-08-06T12:39:56Z" finished-at="2018-08-06T12:39:56Z">
+      <class name="com.erp.qa.testcases.Admin.ItemDefinationPageTest">
+        <test-method status="SKIP" signature="CreateItemDefTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@9838eb]" name="CreateItemDefTest" duration-ms="0" started-at="2018-08-06T18:09:56Z" data-provider="getTreaTestData" finished-at="2018-08-06T18:09:56Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.lang.NullPointerException
+	at com.erp.qa.util.TestUtil.getTestData(TestUtil.java:49)
+	at com.erp.qa.testcases.Admin.ItemDefinationPageTest.getTreaTestData(ItemDefinationPageTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+	... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="verifyHomePageTitleTest" duration-ms="3198" started-at="2018-08-06T13:02:58Z" finished-at="2018-08-06T13:03:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="tearDown" is-config="true" duration-ms="630" started-at="2018-08-06T13:03:01Z" finished-at="2018-08-06T13:03:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="setUp" is-config="true" duration-ms="24399" started-at="2018-08-06T13:03:02Z" finished-at="2018-08-06T13:03:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="verifyUserNameTest" duration-ms="3495" started-at="2018-08-06T13:03:26Z" finished-at="2018-08-06T13:03:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="tearDown" is-config="true" duration-ms="615" started-at="2018-08-06T13:03:30Z" finished-at="2018-08-06T13:03:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="setUp" is-config="true" duration-ms="32311" started-at="2018-08-06T13:03:30Z" finished-at="2018-08-06T13:04:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyNatureOfBusinessURLTest()[pri:3, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="verifyNatureOfBusinessURLTest" duration-ms="6400" started-at="2018-08-06T13:04:03Z" finished-at="2018-08-06T13:04:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNatureOfBusinessURLTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="tearDown" is-config="true" duration-ms="637" started-at="2018-08-06T13:04:09Z" finished-at="2018-08-06T13:04:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="setUp" is-config="true" duration-ms="25035" started-at="2018-08-06T13:04:10Z" finished-at="2018-08-06T13:04:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLocationsURLTest()[pri:4, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="verifyLocationsURLTest" duration-ms="6317" started-at="2018-08-06T13:04:35Z" finished-at="2018-08-06T13:04:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLocationsURLTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="tearDown" is-config="true" duration-ms="629" started-at="2018-08-06T13:04:41Z" finished-at="2018-08-06T13:04:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="setUp" is-config="true" duration-ms="33194" started-at="2018-08-06T13:04:42Z" finished-at="2018-08-06T13:05:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyMFGURLTest()[pri:5, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="verifyMFGURLTest" duration-ms="6459" started-at="2018-08-06T13:05:15Z" finished-at="2018-08-06T13:05:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMFGURLTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="tearDown" is-config="true" duration-ms="626" started-at="2018-08-06T13:05:21Z" finished-at="2018-08-06T13:05:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="setUp" is-config="true" duration-ms="23114" started-at="2018-08-06T13:05:22Z" finished-at="2018-08-06T13:05:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyItemDefinitionTest()[pri:6, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="verifyItemDefinitionTest" duration-ms="6500" started-at="2018-08-06T13:05:45Z" finished-at="2018-08-06T13:05:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyItemDefinitionTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="tearDown" is-config="true" duration-ms="620" started-at="2018-08-06T13:05:52Z" finished-at="2018-08-06T13:05:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="setUp" is-config="true" duration-ms="26599" started-at="2018-08-06T13:05:52Z" finished-at="2018-08-06T13:06:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyItemCategoriesTest()[pri:7, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="verifyItemCategoriesTest" duration-ms="6461" started-at="2018-08-06T13:06:19Z" finished-at="2018-08-06T13:06:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyItemCategoriesTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="tearDown" is-config="true" duration-ms="616" started-at="2018-08-06T13:06:25Z" finished-at="2018-08-06T13:06:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="setUp" is-config="true" duration-ms="38029" started-at="2018-08-06T13:06:26Z" finished-at="2018-08-06T13:07:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySuppliersTest()[pri:8, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="verifySuppliersTest" duration-ms="6409" started-at="2018-08-06T13:07:04Z" finished-at="2018-08-06T13:07:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySuppliersTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="tearDown" is-config="true" duration-ms="620" started-at="2018-08-06T13:07:10Z" finished-at="2018-08-06T13:07:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="setUp" is-config="true" duration-ms="35715" started-at="2018-08-06T13:07:11Z" finished-at="2018-08-06T13:07:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPermissionsTest()[pri:9, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="verifyPermissionsTest" duration-ms="6428" started-at="2018-08-06T13:07:47Z" finished-at="2018-08-06T13:07:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPermissionsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="tearDown" is-config="true" duration-ms="661" started-at="2018-08-06T13:07:53Z" finished-at="2018-08-06T13:07:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="setUp" is-config="true" duration-ms="22077" started-at="2018-08-06T13:07:54Z" finished-at="2018-08-06T13:08:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLabelsTest()[pri:10, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="verifyLabelsTest" duration-ms="6524" started-at="2018-08-06T13:08:16Z" finished-at="2018-08-06T13:08:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLabelsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.HomePageTest@9838eb]" name="tearDown" is-config="true" duration-ms="613" started-at="2018-08-06T13:08:22Z" finished-at="2018-08-06T13:08:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.erp.qa.testcases.HomePageTest -->
+        </test-method> <!-- CreateItemDefTest -->
+      </class> <!-- com.erp.qa.testcases.Admin.ItemDefinationPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

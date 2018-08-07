@@ -183,6 +183,11 @@ public class HomePage extends TestBase {
 	
 	//Item definition Page
 	
+	public void ClickonItemDefLink()
+	{
+		ItemDefinitionLink.click();
+	}
+	
 	public String GetItemDefinitionPageURL()
 	{
 		ItemDefinitionLink.click();
