@@ -31,8 +31,10 @@ import com.erp.qa.pages.Inventory.RecievingSlipsPage;
 import com.erp.qa.pages.Messaging.MessagingPage;
 import com.erp.qa.pages.WorkFlow.ProjectEstimatorPage;
 import com.erp.qa.pages.WorkFlow.SchedulingPage;
-import com.erp.qa.pages.WorkFlow.WorkOrdersPage;
-**/
+import com.erp.qa.pages.WorkFlow.WorkOrdersPage;**/
+import com.erp.qa.pages.Admin.BusinessNaturePage;
+import com.erp.qa.pages.CRM.CRMPage;
+
 public class HomePage extends TestBase {
 
 	@FindBy(xpath = "/html/body/trea-app-root/ng-component/div/header/nav/div/ul/li[1]/a/span")
@@ -63,16 +65,22 @@ public class HomePage extends TestBase {
 	
 	@FindBy(xpath="//*[@id='leftside-navigation']/ul/li[2]/ul/li[3]/a")
 	WebElement ItemCategoriesLink;
+	
 	@FindBy(xpath="//*[@id='leftside-navigation']/ul/li[2]/ul/li[6]/a")
 	WebElement SuppliersLink;
+	
 	@FindBy(xpath="//*[@id='leftside-navigation']/ul/li[2]/ul/li[7]/a")
-	WebElement PermissionsLink ;
+	WebElement PermissionsLink;
+	
 	@FindBy(xpath="//*[@id='leftside-navigation']/ul/li[2]/ul/li[8]/a")
 	WebElement LabelsLink;
-	@FindBy(xpath ="//*[@id=\"leftside-navigation\"]/ul/li[3]/a/span[1]")
+	
+	@FindBy(xpath ="//*[@id='leftside-navigation']/ul/li[3]/a/span[1]")
 	WebElement InventoryTab ;
+	
 	@FindBy(xpath ="//*[@id='leftside-navigation']/ul/li[3]/ul/li[1]/a")
 	WebElement ProductsLink;
+	
 	@FindBy(xpath ="//*[@id='leftside-navigation']/ul/li[3]/ul/li[2]/a")
 	WebElement AssetsLink;
 	
@@ -121,7 +129,7 @@ public class HomePage extends TestBase {
 	@FindBy(xpath ="//*[@id='leftside-navigation']/ul/li[6]/ul/li[3]/a")
 	WebElement TimesheetsLink;
 	
-	@FindBy(xpath ="//*[@id=\"leftside-navigation\"]/ul/li[7]/a/span[1]")
+	@FindBy(xpath ="//*[@id='leftside-navigation']/ul/li[7]/a/span[1]")
 	WebElement AccountingTab;
 	
 	@FindBy(xpath ="//*[@id='leftside-navigation']/ul/li[7]/ul/li[1]/a")
@@ -133,13 +141,7 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//*[@id='leftside-navigation']/ul/li[8]/a/span")
 	WebElement MessagingLink;
 
-	//private WebElement BusinessOfNatureLink;
-	
-//	@FindBy(xpath = "//a[contains(text(),'Deals')]")
-//	WebElement dealsLink;
-//
-//	@FindBy(xpath = "//a[contains(text(),'Tasks')]")
-//	WebElement tasksLink;
+
 
 	// Initializing the Page Objects:
 	public HomePage() {
@@ -221,6 +223,11 @@ public class HomePage extends TestBase {
 	{
 		LabelsLink.click();
 		return driver.getCurrentUrl();
+	}
+	
+	public void clickOnInventoryTab1()
+	{
+		InventoryTab.click();
 	}
 	
 	//Productspage
@@ -338,14 +345,55 @@ public class HomePage extends TestBase {
 		MessagingLink.click();
 		return driver.getCurrentUrl();
 	}
-}
+
 	
-	/*public BusinessNaturePage clickOnNatureofBusinessLink() {
+
+	
+	public BusinessNaturePage clickOnNatureofBusinessLink() {
 		NatureofBusinessLink.click();
 		return new BusinessNaturePage();
 	}
+
+	public void clickOnWorkflowTab() {
+		WorkflowTab.click();
+		
+	}
+
+	public void clickOnHRTab() {
+		HRTab.click();
+		
+	}
+
+	public void clickOnAccountingTab1() {
+		AccountingTab.click();
+		
+	}
+	public CRMPage clickOnCRMLink() {
+		CRMLink.click();
+		return new CRMPage();
+		}
+
+	public void clickOnHRTab1() {
+		HRTab.click();
+		
+	}
+
+	public void clickOnMessagingLink() {
+		MessagingLink.click();
+		
+	}
+
 	
-	public LocationsPage clickOnLocationsLink() {
+}
+	
+
+	
+		
+		
+
+	
+
+	/*public LocationsPage clickOnLocationsLink() {
 		LocationsLink.click();
 		return new LocationsPage();
 	}
@@ -439,10 +487,7 @@ public MaintenancePage clickOnMaintenanceLink() {
 		return new SchedulingPage();
 	}
 	
-	public CRMPage clickOnCRMLink() {
-	CRMLink.click();
-	return new CRMPage();
-	}
+	
 	public void clickOnHRTab()
 	{
 		HRTab.click();
@@ -482,7 +527,9 @@ public MaintenancePage clickOnMaintenanceLink() {
 }
 
 	
-} **/
+**/
+	
+
 
 	
 	
