@@ -39,6 +39,7 @@ import com.erp.qa.pages.WorkFlow.SchedulingPage;
 
 import com.erp.qa.pages.WorkFlow.WorkOrdersPage;
 **/
+import com.erp.qa.pages.Admin.BusinessNaturePage;
 
 public class HomePage extends TestBase {
 
@@ -198,30 +199,6 @@ public class HomePage extends TestBase {
 		return driver.getCurrentUrl();
 	}
 	
-
-// Get Url For NatureofBusiness page
-	
-	public String GetNatureofBusinessPageURL()
-	{
-		NatureofBusinessLink.click();
-		return driver.getCurrentUrl();
-		
-	}
-	
-	//Get url of Location page
-	public String GetLocationsPageURL()
-	{
-		LocationsLink.click();
-		return driver.getCurrentUrl();
-	}
-	
-	//Manufacturer page
-	public String GetMFGPageURL()
-	{
-		MFGLink.click();
-		return driver.getCurrentUrl();
-	}
-	
 	//Item definition Page
 	
 	public void ClickonItemDefLink()
@@ -229,11 +206,7 @@ public class HomePage extends TestBase {
 		ItemDefinitionLink.click();
 	}
 	
-	public String GetItemDefinitionPageURL()
-	{
-		ItemDefinitionLink.click();
-		return driver.getCurrentUrl();
-	}
+	
 	
 	//Item Categories page
 	
@@ -385,14 +358,17 @@ public class HomePage extends TestBase {
 		return driver.getCurrentUrl();
 	}
 
-}
 	
-	/*public BusinessNaturePage clickOnNatureofBusinessLink() {
+
+	
+	public BusinessNaturePage clickOnNatureofBusinessLink() {
 		NatureofBusinessLink.click();
 		return new BusinessNaturePage();
 	}
+}
 	
-	public LocationsPage clickOnLocationsLink() {
+	
+	/*public LocationsPage clickOnLocationsLink() {
 		LocationsLink.click();
 		return new LocationsPage();
 	}
