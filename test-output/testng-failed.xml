@@ -5,32 +5,18 @@
     <classes>
       <class name="com.erp.qa.testcases.HomePageTest">
         <methods>
-
-          <include name="setUp"/>
-          <include name="EditBusinessTypeTest" invocation-numbers="0"/>
-
-          <include name="tearDown"/>
-          <include name="verifyProductsTest"/>
-          <include name="verifyWorkOrdersTest"/>
-          <include name="verifyUserNameTest"/>
-          <include name="verifyMessagingTest"/>
-          <include name="verifyProjectEstimatorTest"/>
-          <include name="verifyLabelsTest"/>
-          <include name="verifySchedulingTest"/>
-          <include name="verifyAssetsTest"/>
-          <include name="verifyPurchaseOrderTest"/>
-          <include name="verifyRecievingSlipsTest"/>
-          <include name="verifyAuditTest"/>
-          <include name="verifyMaterialTest"/>
-          <include name="verifyNatureOfBusinessURLTest"/>
-          <include name="verifyInvoiceTest"/>
           <include name="verifyLocationsURLTest"/>
-          <include name="verifyTimesheetsTest"/>
+          <include name="verifyUserNameTest"/>
           <include name="verifyPermissionsTest"/>
           <include name="verifyItemDefinitionTest"/>
           <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
           <include name="verifyMFGURLTest"/>
           <include name="verifyItemCategoriesTest"/>
+          <include name="verifySuppliersTest"/>
+          <include name="verifyLabelsTest"/>
+          <include name="verifyNatureOfBusinessURLTest"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.erp.qa.testcases.HomePageTest -->
     </classes>
