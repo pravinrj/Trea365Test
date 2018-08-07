@@ -5,13 +5,10 @@
     <classes>
       <class name="com.erp.qa.testcases.HomePageTest">
         <methods>
-          <include name="verifyCRMTest"/>
-          <include name="verifySubContractorTest"/>
-          <include name="verifyEmployeesTest"/>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="verifySuppliersTest"/>
-          <include name="verifyMaintenanceTest"/>
-          <include name="verifyPaymentSchedulesTest"/>
+
+          <include name="setUp"/>
+          <include name="EditBusinessTypeTest" invocation-numbers="0"/>
+
           <include name="tearDown"/>
           <include name="verifyProductsTest"/>
           <include name="verifyWorkOrdersTest"/>

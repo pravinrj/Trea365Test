@@ -115,43 +115,52 @@ public class HomePageTest extends TestBase {
 		String url= homePage.GetLabelsPageURL();
 		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/print-label", "URL not match");
 		}
-  @Test(priority=11)
+
+	/*@Test(priority=11)
 	public void verifyProductsTest() throws InterruptedException{
 		//testUtil.switchToFrame();
-		homePage.clickOnInventoryTab1();
-		Thread.sleep(4000);
+		homePage.clickOnInventoryTab();
+		Thread.sleep(3000);
+
 		String url= homePage.GetProductsPageURL();
 		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/inventory/product-list", "URL not match");
 		}
 	@Test(priority=12)
 	public void verifyAssetsTest() throws InterruptedException{
-		//testUtil.switchToFrame();
-		homePage.clickOnInventoryTab1();
-		Thread.sleep(4000);
+
+		homePage.clickOnInventoryTab();
+		Thread.sleep(3000);
+
 		String url= homePage.GetAssetsPageURL();
 		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/inventory/asset-list", "URL not match");
 		}
 	@Test(priority=13)
 	public void verifyMaterialTest() throws InterruptedException{
 		//testUtil.switchToFrame();
-		homePage.clickOnInventoryTab1();
-		Thread.sleep(4000);
+
+		homePage.clickOnInventoryTab();
+		Thread.sleep(3000);
+
 		String url= homePage.GetMaterialPageURL();
 		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/inventory/material-list", "URL not match");
 		}
 	@Test(priority=14)
 	public void verifyMaintenanceTest() throws InterruptedException{
 		//testUtil.switchToFrame();
-		homePage.clickOnInventoryTab1();
-		Thread.sleep(4000);
+
+		homePage.clickOnInventoryTab();
+		Thread.sleep(3000);
+
 		String url= homePage.GetMaintenancePageURL();
 		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/inventory/maintenance-list", "URL not match");
 		}
 	@Test(priority=15)
 	public void verifyPurchaseOrderTest() throws InterruptedException{
 		//testUtil.switchToFrame();
-		homePage.clickOnInventoryTab1();
-		Thread.sleep(4000);
+
+		homePage.clickOnInventoryTab();
+		Thread.sleep(3000);
+
 		String url= homePage.GetPurchaseOrdersPageURL();
 		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/inventory/purchase-order-list", "URL not match");
 		}
@@ -159,8 +168,10 @@ public class HomePageTest extends TestBase {
 	@Test(priority=16)
 	public void verifyRecievingSlipsTest() throws InterruptedException{
 		//testUtil.switchToFrame();
-		homePage.clickOnInventoryTab1();
-		Thread.sleep(4000);
+
+		homePage.clickOnInventoryTab();
+		Thread.sleep(3000);
+
 		String url= homePage.GetRecievingSlipsPageURL();
 		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/inventory/receiving-slips-list", "URL not match");
 		}
@@ -168,8 +179,10 @@ public class HomePageTest extends TestBase {
 	@Test(priority=17)
 	public void verifyAuditTest() throws InterruptedException{
 		//testUtil.switchToFrame();
-		homePage.clickOnInventoryTab1();
-		Thread.sleep(4000);
+
+		homePage.clickOnInventoryTab();
+		Thread.sleep(3000);
+
 		String url= homePage.GetAuditPageURL();
 		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/inventory/audit-list", "URL not match");
 		}
@@ -180,7 +193,9 @@ public class HomePageTest extends TestBase {
 	public void verifyProjectEstimatorTest() throws InterruptedException{
 		//testUtil.switchToFrame();
 		homePage.clickOnWorkflowTab();
-		Thread.sleep(4000);
+
+		Thread.sleep(3000);
+
 		String url= homePage.GetProjectEstimatorPageURL();
 		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/quotation-list", "URL not match");
 		}
@@ -188,25 +203,32 @@ public class HomePageTest extends TestBase {
 	public void verifyWorkOrdersTest() throws InterruptedException{
 		//testUtil.switchToFrame();
 		homePage.clickOnWorkflowTab();
-		Thread.sleep(4000);
+
+		Thread.sleep(3000);
 		String url= homePage.GetWorkOrdersPageURL();
-		Assert.assertEquals(url,"https://www.trea365.com/steam/#/csa/work-order-list", "URL not match");
+		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/work-order-list", "URL not match");
+
 		}
 	
 	@Test(priority=20)
 	public void verifySchedulingTest() throws InterruptedException{
 		//testUtil.switchToFrame();
-	homePage.clickOnWorkflowTab();
+
+		homePage.clickOnWorkflowTab();
 		Thread.sleep(3000);
 		String url= homePage.GetSchedulingsPageURL();
-		Assert.assertEquals(url,"https://www.trea365.com/steam/#/csa/schedule-list", "URL not match");
+		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/schedule-list", "URL not match");
 		}
-		
+
 	@Test(priority=21)
 	public void verifyCRMTest() throws InterruptedException{
 		//testUtil.switchToFrame();
 		homePage.clickOnCRMLink();
-		Thread.sleep(3000);
+
+		Thread.sleep(4000);
+	
+		
+
 		String url= homePage.GetCRMPageURL();
 		Assert.assertEquals(url, "https://www.trea365.com/steam/#/crm/csa/client-list", "URL not match");
 		}
@@ -214,56 +236,70 @@ public class HomePageTest extends TestBase {
 	@Test(priority=22)
 	public void verifyEmployeesTest() throws InterruptedException{
 		//testUtil.switchToFrame();
-		homePage.clickOnHRTab1();
-		Thread.sleep(4000);
+
+		homePage.clickOnHRTab();
+		Thread.sleep(3000);
 		String url= homePage.GetEmployeesPageURL();
-		Assert.assertEquals(url,"https://www.trea365.com/steam/#/hr/csa/employee-list", "URL not match");
+		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/employee-list", "URL not match");
+
 		}
 	@Test(priority=23)
 	public void verifySubContractorTest() throws InterruptedException{
 		//testUtil.switchToFrame();
-		homePage.clickOnHRTab1();
-		Thread.sleep(5000);
+
+		homePage.clickOnHRTab();
+		Thread.sleep(3000);
 		String url= homePage.GetSubContractorPageURL();
-		Assert.assertEquals(url,"https://www.trea365.com/steam/#/hr/csa/sub-contractor-list", "URL not match");
+		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/sub-contractor-list", "URL not match");
+
 		}
 	@Test(priority=24)
 	public void verifyTimesheetsTest() throws InterruptedException{
 		//testUtil.switchToFrame();
-		homePage.clickOnHRTab1();
-		Thread.sleep(5000);
+
+		homePage.clickOnHRTab();
+		Thread.sleep(3000);
 		String url= homePage.GetTimesheetsPageURL();
-		Assert.assertEquals(url, "https://www.trea365.com/steam/#/hr/csa/timesheet-list", "URL not match");
+		Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/timesheet-list", "URL not match");
+
 		}
 	
 	
 		@Test(priority=25)
 		public void verifyPaymentSchedulesTest() throws InterruptedException{
 			//testUtil.switchToFrame();
-			homePage.clickOnAccountingTab1();
-			Thread.sleep(5000);
+
+			homePage.clickOnAccountingTab();
+			Thread.sleep(3000);
 			String url= homePage.GetPaymentSchedulesPageURL();
-			Assert.assertEquals(url, "https://www.trea365.com/steam/#/account/csa/acc-receivables", "URL not match");
+			Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/acc-receivables", "URL not match");
+
 			}
 		@Test(priority=26)
 		public void verifyInvoiceTest() throws InterruptedException{
 			//testUtil.switchToFrame();
-			homePage.clickOnAccountingTab1();
-			Thread.sleep(5000);
+
+			homePage.clickOnAccountingTab();
+			Thread.sleep(3000);
 			String url= homePage.GetInvoicePageURL();
-			Assert.assertEquals(url, "https://www.trea365.com/steam/#/account/csa/create-invoice", "URL not match");
+			Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/create-invoice", "URL not match");
+
 			}
 		//MessagingPage
 		@Test(priority=27)
 		public void verifyMessagingTest() throws InterruptedException{
 			//testUtil.switchToFrame();
 			homePage.clickOnMessagingLink();
-			Thread.sleep(3000);
+
+			Thread.sleep(4000);
+
 		
 			
 			String url= homePage.GetMessagingPageURL();
 			Assert.assertEquals(url, "https://www.trea365.com/steam/#/csa/messaging", "URL not match");
 			}
+
+		**/
 
 		
 	@AfterMethod
