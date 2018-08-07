@@ -3,16 +3,39 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.erp.qa.testcases.Admin.BusinessNaturePageTest">
+      <class name="com.erp.qa.testcases.HomePageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="DeleteBuTypeTest" invocation-numbers="0"/>
-          <include name="EditBusinessTypeTest" invocation-numbers="0"/>
-          <include name="VerifySearchBuType" invocation-numbers="0"/>
-          <include name="CreateBusinessTypeTest" invocation-numbers="0"/>
+          <include name="verifyCRMTest"/>
+          <include name="verifySubContractorTest"/>
+          <include name="verifyEmployeesTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifySuppliersTest"/>
+          <include name="verifyMaintenanceTest"/>
+          <include name="verifyPaymentSchedulesTest"/>
           <include name="tearDown"/>
+          <include name="verifyProductsTest"/>
+          <include name="verifyWorkOrdersTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="verifyMessagingTest"/>
+          <include name="verifyProjectEstimatorTest"/>
+          <include name="verifyLabelsTest"/>
+          <include name="verifySchedulingTest"/>
+          <include name="verifyAssetsTest"/>
+          <include name="verifyPurchaseOrderTest"/>
+          <include name="verifyRecievingSlipsTest"/>
+          <include name="verifyAuditTest"/>
+          <include name="verifyMaterialTest"/>
+          <include name="verifyNatureOfBusinessURLTest"/>
+          <include name="verifyInvoiceTest"/>
+          <include name="verifyLocationsURLTest"/>
+          <include name="verifyTimesheetsTest"/>
+          <include name="verifyPermissionsTest"/>
+          <include name="verifyItemDefinitionTest"/>
+          <include name="setUp"/>
+          <include name="verifyMFGURLTest"/>
+          <include name="verifyItemCategoriesTest"/>
         </methods>
-      </class> <!-- com.erp.qa.testcases.Admin.BusinessNaturePageTest -->
+      </class> <!-- com.erp.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
