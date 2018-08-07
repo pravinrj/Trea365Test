@@ -3,12 +3,32 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.erp.qa.testcases.Admin.ItemDefinationPageTest">
+=======
+      <class name="com.erp.qa.testcases.HomePageTest">
+>>>>>>> 0a3b87f1458828948bcb57c144c5fdaf94cf7e43
         <methods>
+          <include name="verifyLocationsURLTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="verifyPermissionsTest"/>
+          <include name="verifyItemDefinitionTest"/>
           <include name="setUp"/>
+<<<<<<< HEAD
           <include name="CreateItemDefTest"/>
         </methods>
       </class> <!-- com.erp.qa.testcases.Admin.ItemDefinationPageTest -->
+=======
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyMFGURLTest"/>
+          <include name="verifyItemCategoriesTest"/>
+          <include name="verifySuppliersTest"/>
+          <include name="verifyLabelsTest"/>
+          <include name="verifyNatureOfBusinessURLTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.erp.qa.testcases.HomePageTest -->
+>>>>>>> 0a3b87f1458828948bcb57c144c5fdaf94cf7e43
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
