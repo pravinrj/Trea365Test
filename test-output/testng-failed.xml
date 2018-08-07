@@ -3,13 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.erp.qa.testcases.Admin.BusinessNaturePageTest">
+      <class name="com.erp.qa.testcases.HomePageTest">
         <methods>
+          <include name="verifyLocationsURLTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="verifyPermissionsTest"/>
+          <include name="verifyItemDefinitionTest"/>
           <include name="setUp"/>
-          <include name="EditBusinessTypeTest" invocation-numbers="0"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyMFGURLTest"/>
+          <include name="verifyItemCategoriesTest"/>
+          <include name="verifySuppliersTest"/>
+          <include name="verifyLabelsTest"/>
+          <include name="verifyNatureOfBusinessURLTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.erp.qa.testcases.Admin.BusinessNaturePageTest -->
+      </class> <!-- com.erp.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
