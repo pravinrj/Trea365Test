@@ -100,7 +100,7 @@ public class BusinessNaturePage extends TestBase {
 	
 	public void CreateNewBusinessType(String BuType, String ServiceType, String ServiceDef, String Price) throws InterruptedException
 	{
-
+		Thread.sleep(3000);
 		NewBusinessTypeBtn.click();
 		Thread.sleep(3000);
 		BusinessTypeText.sendKeys(BuType);

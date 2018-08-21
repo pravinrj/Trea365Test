@@ -42,7 +42,7 @@ public class BusinessNaturePageTest extends TestBase  {
 	public void CreateBusinessTypeTest(String BUType, String ServiceType, String ServiceDef, String Price) throws InterruptedException
 	{
 		businessNaturePage.CreateNewBusinessType(BUType, ServiceType, ServiceDef, Price);
-		
+		System.out.println("Successfully created new Business Type");
 	}
 	
 	@Test(priority=2,dataProvider="getTreaTestData")
