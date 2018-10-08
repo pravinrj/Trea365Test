@@ -40,6 +40,8 @@ import com.erp.qa.pages.WorkFlow.SchedulingPage;
 import com.erp.qa.pages.WorkFlow.WorkOrdersPage;
 **/
 import com.erp.qa.pages.Admin.BusinessNaturePage;
+import com.erp.qa.pages.Admin.ItemCategoriesPage;
+import com.erp.qa.pages.Admin.ItemDefinationPage;
 import com.erp.qa.pages.Admin.LocationsPage;
 
 public class HomePage extends TestBase {
@@ -361,6 +363,16 @@ public class HomePage extends TestBase {
 		return new LocationsPage();
 	}
 	
+	public ItemCategoriesPage clickOnItemCategoriesLink() {
+		
+		ItemCategoriesLink.click();
+		return new ItemCategoriesPage ();
+	}
+	
+	public ItemDefinationPage clickOnItemDefLink(){
+		ItemDefinitionLink.click();
+		return new ItemDefinationPage();
+	}
 	
 }
 		
@@ -376,11 +388,7 @@ public class HomePage extends TestBase {
 		ItemDefinitionLink.click();
 		return new ItemDefinitionPage ();
 	}
-	public ItemCategoriesPage clickOnItemCategoriesLink() {
-		
-		ItemCategoriesLink.click();
-		return new ItemCategoriesPage ();
-	}
+	
 	public SuppliersPage clickOnSuppliersLink() {
 		SuppliersLink.click();
 		return new SuppliersPage();

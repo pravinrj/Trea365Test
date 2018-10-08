@@ -140,5 +140,7 @@ public class LocationsPage extends TestBase {
 		//DeleteDoneBtn.click();
 		System.out.println("Location deleted successfully");
 	}
+	
+	
 		
 }

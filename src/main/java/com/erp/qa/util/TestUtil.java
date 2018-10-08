@@ -17,8 +17,8 @@ import com.erp.qa.base.TestBase;
 
 public class TestUtil extends TestBase{
 	
-	public static long PAGE_LOAD_TIMEOUT = 90;
-	public static long IMPLICIT_WAIT = 90;
+	public static long PAGE_LOAD_TIMEOUT = 100;
+	public static long IMPLICIT_WAIT = 100;
 	
 	public static String TESTDATA_SHEET_PATH = System.getProperty("user.dir")+ "/src/main/java/com/erp/qa/testdata/Trea365TestData.xls";
 	

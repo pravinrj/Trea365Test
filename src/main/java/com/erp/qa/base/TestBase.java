@@ -41,7 +41,10 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/driver/chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/driver/chromedriver.exe");
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("-incognito");
+			options.addArguments("--disable-popup-blocking");
 			System.out.println(System.getProperty("user.dir")+ "/driver/chromedriver.exe");
 			driver = new ChromeDriver(); 
 		}

@@ -2,159 +2,189 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="106262" started-at="2018-08-21T12:45:07Z" finished-at="2018-08-21T12:46:53Z">
+  <suite name="Default suite" duration-ms="119174" started-at="2018-10-08T09:28:30Z" finished-at="2018-10-08T09:30:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="106262" started-at="2018-08-21T12:45:07Z" finished-at="2018-08-21T12:46:53Z">
-      <class name="com.erp.qa.testcases.Admin.LocationsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.LocationsPageTest@dafa95]" name="setUp" is-config="true" duration-ms="25123" started-at="2018-08-21T18:15:07Z" finished-at="2018-08-21T18:15:32Z">
+    <test name="Default test" duration-ms="119174" started-at="2018-10-08T09:28:30Z" finished-at="2018-10-08T09:30:30Z">
+      <class name="com.erp.qa.testcases.Admin.ItemDefinationPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="setUp" is-config="true" duration-ms="25519" started-at="2018-10-08T14:58:31Z" finished-at="2018-10-08T14:58:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="CreateLocation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.erp.qa.testcases.Admin.LocationsPageTest@dafa95]" name="CreateLocation" duration-ms="16151" started-at="2018-08-21T18:15:32Z" data-provider="getTreaTestData" finished-at="2018-08-21T18:15:49Z">
+        <test-method status="PASS" signature="CreateItemDefTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="CreateItemDefTest" duration-ms="20424" started-at="2018-10-08T14:58:56Z" data-provider="getTreaTestData" finished-at="2018-10-08T14:59:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Fixed]]>
+                <![CDATA[Oil Product]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Warehouse Test]]>
+                <![CDATA[Toro]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[WT]]>
+                <![CDATA[255.0]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Viman Nagar, Pune, Maharashtra, India]]>
+                <![CDATA[9.87654321234E11]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[WingA]]>
+                <![CDATA[Lubricator Name]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Named]]>
+                <![CDATA[LN123]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[NE]]>
+                <![CDATA[Kilogram]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Size]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[20 Inch]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateLocation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.LocationsPageTest@dafa95]" name="tearDown" is-config="true" duration-ms="668" started-at="2018-08-21T18:15:49Z" finished-at="2018-08-21T18:15:49Z">
+        </test-method> <!-- CreateItemDefTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="tearDown" is-config="true" duration-ms="635" started-at="2018-10-08T14:59:17Z" finished-at="2018-10-08T14:59:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.LocationsPageTest@dafa95]" name="setUp" is-config="true" duration-ms="24484" started-at="2018-08-21T18:15:49Z" finished-at="2018-08-21T18:16:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="setUp" is-config="true" duration-ms="25888" started-at="2018-10-08T14:59:17Z" finished-at="2018-10-08T14:59:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifySearchedLocation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.erp.qa.testcases.Admin.LocationsPageTest@dafa95]" name="VerifySearchedLocation" duration-ms="6448" started-at="2018-08-21T18:16:14Z" data-provider="getTreaTestData" finished-at="2018-08-21T18:16:20Z">
+        <test-method status="PASS" signature="VerifySearchItemDefTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="VerifySearchItemDefTest" duration-ms="5144" started-at="2018-10-08T14:59:43Z" data-provider="getTreaTestData" finished-at="2018-10-08T14:59:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Fixed]]>
+                <![CDATA[Oil Product]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Warehouse Test]]>
+                <![CDATA[Toro]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[WT]]>
+                <![CDATA[255.0]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Viman Nagar, Pune, Maharashtra, India]]>
+                <![CDATA[9.87654321234E11]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[WingA]]>
+                <![CDATA[Lubricator Name]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Named]]>
+                <![CDATA[LN123]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[NE]]>
+                <![CDATA[Kilogram]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Size]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[20 Inch]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifySearchedLocation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.LocationsPageTest@dafa95]" name="tearDown" is-config="true" duration-ms="618" started-at="2018-08-21T18:16:20Z" finished-at="2018-08-21T18:16:21Z">
+        </test-method> <!-- VerifySearchItemDefTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="tearDown" is-config="true" duration-ms="626" started-at="2018-10-08T14:59:48Z" finished-at="2018-10-08T14:59:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.LocationsPageTest@dafa95]" name="setUp" is-config="true" duration-ms="25482" started-at="2018-08-21T18:16:21Z" finished-at="2018-08-21T18:16:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="setUp" is-config="true" duration-ms="26325" started-at="2018-10-08T14:59:49Z" finished-at="2018-10-08T15:00:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="DeleteLocation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.erp.qa.testcases.Admin.LocationsPageTest@dafa95]" name="DeleteLocation" duration-ms="6428" started-at="2018-08-21T18:16:46Z" data-provider="getTreaTestData" finished-at="2018-08-21T18:16:53Z">
+        <test-method status="PASS" signature="VerifyEditedItemDefTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="VerifyEditedItemDefTest" duration-ms="13701" started-at="2018-10-08T15:00:15Z" data-provider="getTreaTestData" finished-at="2018-10-08T15:00:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Fixed]]>
+                <![CDATA[Oil Product]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Warehouse Test]]>
+                <![CDATA[Toro]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[WT]]>
+                <![CDATA[255.0]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Viman Nagar, Pune, Maharashtra, India]]>
+                <![CDATA[9.87654321234E11]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[WingA]]>
+                <![CDATA[Lubricator Name]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Named]]>
+                <![CDATA[LN123]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[NE]]>
+                <![CDATA[Kilogram]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Size]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[20 Inch]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DeleteLocation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.LocationsPageTest@dafa95]" name="tearDown" is-config="true" duration-ms="611" started-at="2018-08-21T18:16:53Z" finished-at="2018-08-21T18:16:53Z">
+        </test-method> <!-- VerifyEditedItemDefTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="tearDown" is-config="true" duration-ms="632" started-at="2018-10-08T15:00:29Z" finished-at="2018-10-08T15:00:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.erp.qa.testcases.Admin.LocationsPageTest -->
+      </class> <!-- com.erp.qa.testcases.Admin.ItemDefinationPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
