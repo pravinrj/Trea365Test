@@ -1,190 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="119174" started-at="2018-10-08T09:28:30Z" finished-at="2018-10-08T09:30:30Z">
+  <suite name="Default suite" duration-ms="45545" started-at="2018-10-11T13:59:57Z" finished-at="2018-10-11T14:00:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="119174" started-at="2018-10-08T09:28:30Z" finished-at="2018-10-08T09:30:30Z">
-      <class name="com.erp.qa.testcases.Admin.ItemDefinationPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="setUp" is-config="true" duration-ms="25519" started-at="2018-10-08T14:58:31Z" finished-at="2018-10-08T14:58:56Z">
+    <test name="Default test" duration-ms="45545" started-at="2018-10-11T13:59:57Z" finished-at="2018-10-11T14:00:43Z">
+      <class name="com.erp.qa.testcases.Admin.SuppliersPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.SuppliersPageTest@dafa95]" name="setUp" is-config="true" duration-ms="36046" started-at="2018-10-11T19:29:57Z" finished-at="2018-10-11T19:30:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="CreateItemDefTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="CreateItemDefTest" duration-ms="20424" started-at="2018-10-08T14:58:56Z" data-provider="getTreaTestData" finished-at="2018-10-08T14:59:17Z">
+        <test-method status="FAIL" signature="CreateSupplier(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.erp.qa.testcases.Admin.SuppliersPageTest@dafa95]" name="CreateSupplier" duration-ms="8604" started-at="2018-10-11T19:30:33Z" data-provider="getTreaTestData" finished-at="2018-10-11T19:30:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Oil Product]]>
+                <![CDATA[Contractors]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Toro]]>
+                <![CDATA[Jean Hera]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[255.0]]>
+                <![CDATA[Vimannagar]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[9.87654321234E11]]>
+                <![CDATA[Pune]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Lubricator Name]]>
+                <![CDATA[India]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[LN123]]>
+                <![CDATA[Maharashtra]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Kilogram]]>
+                <![CDATA[Pune]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Size]]>
+                <![CDATA[411011.0]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[20 Inch]]>
+                <![CDATA[jean@yopmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9.556512345E9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[cont comm]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Jeena updated]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+            <message>
+              <![CDATA[Element should have been "select" but was "input"
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-EVNNH1F', ip: '192.168.2.111', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "input"
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-EVNNH1F', ip: '192.168.2.111', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:47)
+	at com.erp.qa.pages.Admin.SuppliersPage.CreateNewSupplier(SuppliersPage.java:110)
+	at com.erp.qa.testcases.Admin.SuppliersPageTest.CreateSupplier(SuppliersPageTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateItemDefTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="tearDown" is-config="true" duration-ms="635" started-at="2018-10-08T14:59:17Z" finished-at="2018-10-08T14:59:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="setUp" is-config="true" duration-ms="25888" started-at="2018-10-08T14:59:17Z" finished-at="2018-10-08T14:59:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifySearchItemDefTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="VerifySearchItemDefTest" duration-ms="5144" started-at="2018-10-08T14:59:43Z" data-provider="getTreaTestData" finished-at="2018-10-08T14:59:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Oil Product]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Toro]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[255.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.87654321234E11]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Lubricator Name]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[LN123]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Kilogram]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Size]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[20 Inch]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySearchItemDefTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="tearDown" is-config="true" duration-ms="626" started-at="2018-10-08T14:59:48Z" finished-at="2018-10-08T14:59:49Z">
+        </test-method> <!-- CreateSupplier -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.SuppliersPageTest@dafa95]" name="tearDown" is-config="true" duration-ms="648" started-at="2018-10-11T19:30:42Z" finished-at="2018-10-11T19:30:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="setUp" is-config="true" duration-ms="26325" started-at="2018-10-08T14:59:49Z" finished-at="2018-10-08T15:00:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyEditedItemDefTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="VerifyEditedItemDefTest" duration-ms="13701" started-at="2018-10-08T15:00:15Z" data-provider="getTreaTestData" finished-at="2018-10-08T15:00:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Oil Product]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Toro]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[255.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.87654321234E11]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Lubricator Name]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[LN123]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Kilogram]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Size]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[20 Inch]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyEditedItemDefTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.erp.qa.testcases.Admin.ItemDefinationPageTest@dafa95]" name="tearDown" is-config="true" duration-ms="632" started-at="2018-10-08T15:00:29Z" finished-at="2018-10-08T15:00:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.erp.qa.testcases.Admin.ItemDefinationPageTest -->
+      </class> <!-- com.erp.qa.testcases.Admin.SuppliersPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

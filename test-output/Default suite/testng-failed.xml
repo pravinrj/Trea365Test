@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.erp.qa.testcases.Admin.ItemDefinationPageTest">
+      <class name="com.erp.qa.testcases.Admin.SuppliersPageTest">
         <methods>
-          <include name="VerifyEditedItemDefTest" invocation-numbers="0"/>
-          <include name="setUp"/>
+          <include name="CreateSupplier" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.erp.qa.testcases.Admin.ItemDefinationPageTest -->
+      </class> <!-- com.erp.qa.testcases.Admin.SuppliersPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

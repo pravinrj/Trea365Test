@@ -43,6 +43,8 @@ import com.erp.qa.pages.Admin.BusinessNaturePage;
 import com.erp.qa.pages.Admin.ItemCategoriesPage;
 import com.erp.qa.pages.Admin.ItemDefinationPage;
 import com.erp.qa.pages.Admin.LocationsPage;
+import com.erp.qa.pages.Admin.MfgPage;
+import com.erp.qa.pages.Admin.SuppliersPage;
 
 public class HomePage extends TestBase {
 
@@ -372,6 +374,17 @@ public class HomePage extends TestBase {
 	public ItemDefinationPage clickOnItemDefLink(){
 		ItemDefinitionLink.click();
 		return new ItemDefinationPage();
+	}
+	
+	public MfgPage clickOnMfgLink()
+	{
+		MFGLink.click();
+		return new MfgPage();
+	}
+	public SuppliersPage clickOnSupplierLink()
+	{
+		SuppliersLink.click();
+		return new SuppliersPage();
 	}
 	
 }
